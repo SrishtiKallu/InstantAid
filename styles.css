@@ -1,0 +1,12 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f8f9fa; color: #212529; padding: 1rem; }
+header { text-align: center; margin-bottom: 1.5rem; }
+.top-bar { display: flex; justify-content: space-between; align-items: center; max-width: 500px; margin: 0 auto 0.5rem auto; }
+h1 { color: #d90429; }
+.emergency-btn { background-color: #d90429; color: white; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: bold; }
+.warning-banner { background-color: #ffccd5; color: #721c24; padding: 0.5rem; font-size: 0.85rem; border-radius: 6px; margin-bottom: 1rem; max-width: 500px; margin-left: auto; margin-right: auto; }
+#search-input { width: 100%; max-width: 500px; padding: 0.75rem; font-size: 1rem; border: 2px solid #ced4da; border-radius: 8px; }
+.card { background: white; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; border-left: 5px solid #d90429; box-shadow: 0 2px 4px rgba(0,0,0,0.1); max-width: 500px; margin-left: auto; margin-right: auto; text-align: left; }
+.card h2 { margin-bottom: 0.5rem; }
+.card .category { font-size: 0.8rem; text-transform: uppercase; color: #6c757d; font-weight: bold; margin-bottom: 0.25rem; display: block; }
+.card ol { padding-left: 1.25rem; }
